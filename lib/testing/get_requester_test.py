@@ -1,4 +1,4 @@
-from GetRequester import GetRequester
+from lib.get_requester import GetRequester
 class GetRequesterTest:
     '''Class {Classname} in {modulename}.py'''
 URL = 'https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json'

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Company Directory</title>
+</head>
+<body>
+    <h1>Employee Directory</h1>
+    <ul>
+        {% for employee in employees %}
+            <li>{{ employee.name }} - {{ employee.occupation }} - {{ employee.home }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
