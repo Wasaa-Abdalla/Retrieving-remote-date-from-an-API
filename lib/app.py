@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from get_requester import GetRequester
+from lib.get_requester import GetRequester
 
 app = Flask(__name__)
 
