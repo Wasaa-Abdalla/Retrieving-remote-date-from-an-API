@@ -1,4 +1,4 @@
-from lib.get_requester import GetRequester
+from lib.GetRequester import GetRequester
 
 class GetRequesterTest:
     '''Class GetRequester in get_requester.py'''
